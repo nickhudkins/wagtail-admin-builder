@@ -509,3 +509,21 @@ footer,
 // a {
     // @include transition(color 0.2s ease, background-color 0.2s ease);
 // }
+
+
+//JQUERY UI Overrides because UGHHHHHH:
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  background: $color-teal !important;
+  border-color: $color-teal !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  background: $color-teal !important;
+}
